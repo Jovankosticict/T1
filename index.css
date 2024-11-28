@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+	 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body ul{
+list-style-type:none;}
+body{background-color:black;
+}
+#header{
+     display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    font-family: "Montserrat", sans-serif; 
+    border-bottom: 2px solid #EEEEEE; 
+      background-image: url('images.jpeg');
+    background-size: cover; /
+    background-position: center;
+    color: white;
+  
+  
+    }
+
+.t1-image, .content-wrapper, .istorija-tekst{
+display:flex;
+} 	
+.link a{
+    text-decoration: none;
+    color:white;
+   
+}
+.link, .link a{
+	  gap:50px;
+}
+.link {
+    display:flex;
+	flex-direction:row;
+  
+}
+.history {
+    font-size: 75px;
+    font-weight: 900;
+  color: #CF0A0A;
+  
+    font-family: Arial, Helvetica, sans-serif;
+}
+#zajedno-istorija{
+	flex: 1;
+	display:flex;
+flex-direction:column;
+align-items:center;
+
+
+}
+.istorija-tekst{
+word-spacing:10px;
+}
+
+.istorija-tekst li{
+	border-right:1px solid white;
+color:white;}
+
+.first-half-of-ul, .second-half-of-ul{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	list-style-type:none;
+	color:red;
+	padding:10px 10px 10px 10px;
+}
+
+
+
+.istorija-tekst ul, .nor ul{
+	list-style-type:none;
+}
+
+.istorija-tekst:hover{  
+	font-size:16px;
+border-radius:12px;
+}
+.istorija-tekst li:hover{
+	color:white;
+	
+}
+.header:hover,.player-list:hover {
+    text-decoration: none;
+    
+}.history:hover{
+	color:#FFFFFF;
+	transition:all 1s;	
+}
+
+.community:hover,
+.careers:hover{
+    color: #CF0A0A;
+    transition: all 1s;
+    text-decoration: underline 2px;
+    cursor: pointer;	
+}
+
+li{
+	margin-bottom:15px;
+}
+nav{color:white;
+margin-left:50px;
+
+
+}
+
+.player-list:hover{
+cursor:pointer;
+}
+
+nav {
+	width: 400px;
+}
+
+.t1-players-line{
+	height:100%;
+		border-right:2px solid white;
+		
+  
+background-image: url('./download.jpeg');
+    background-size: contain; 
+    background-position: center; 
+	background-repeat:no-repeat;
+    height: 100vh; 
+    width: 100%; 
+}
+}
+
+
+.t1-players ul{
+	le-type:e;
+}
+#nor{
+	display:flex;
+ list-style-type: none;
+	flex-direction:row;
+	color:white;
+	font-size:16px;
+	justify-content:space-around;
+	border-top:2px solid white;
+	gap:10px;
+	font-weight:750;
+}
+
+#nor a {
+  color: #CF0A0A;
+  text-decoration:none;
+}
+.footer-header{
+	font-size:16px;
+	font-weight:750;
+}
+#nor li :hover{
+	color:#DC5F00;
+}
+.shop ol{
+ list-style-type: decimal;
+}
+#roster{
+	width:700px;
+}
+.first-half-of-ul:hover li,
+.second-half-of-ul:hover li {
+  color: #FFE140; /* Boja kada se hoveruje */
+}
+#header-roster{
+	display:flex;
+	justify-content:center;
+color:CF0A0A;
+}
+.roster{
+	background-image:url('thumb-1920-1340819.png');
+	background-size:cover;
+	background-position:center;;
+	display:flex;
+	flex-direction:column;
+	color:white;	
+	height:800px;
+	
+
+}
+
+.roster img{
+		border:3px solid #CF0A0A;
+		border-radius:20px;
+	width:300px;
+height:200px;}
+.keria{
+	display:flex;
+	width:250px;
+	flex-direction:column;
+
+
+}
+.heeader-roster{
+	color:#CF0A0A:
+}
+.all{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding-left:50px;
+	padding-right:50px;
+		align-items:center;
+}
+.player-id{
+	color:white;
+	font-size:30px;
+	padding-left:100px;
+	
+	
+}
+.all ul{
+	list-style-type:none;
+	padding-left:50px;
+	font-weight:600;
+	color:white;
+}
+.keria ul{opacity:0;}
+.keria ul:hover{transition:all 1s;
+	opacity:1;
+
+}
+#o-nama{
+	display:flex;
+	flex-direction:row;
+	background-image:url('skt_t1_k_wallpaper_by_nervyzombie_d7hd095-pre.jpg');
+	background-size:cover; 
+	background-position:top;
+	color:white;
+	font-weight:800;
+	height:860px;
+}
+#naslov,#ja{
+	display:flex;
+	justify-content:center;
+}
+.o-klubu{
+	border-right:2px solid white;
+}
+#autor{display:flex;
+flex-direction:row;
+}
+.levi-deo{
+height:500px;}
+.desni-deo{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.o-klubu{
+	width:2500px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #CF0A0A;
+	color:white;
+	font-size:16px;
+	margin-bottom:20px;
+}input {
+    width: 300px;
+    border: 1px solid gray;
+	height:35px;
+}
+#contact{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:space-between;
+	background-image:url('league-of-legends-skt-t1-wallpaper-preview.jpg');
+	background-size:cover;
+	background-position:center;	
+	border-top:1px solid white;
+	height:700px;
+}
+.talk{
+	font-size:35px;
+	color:white;
+}
+.talk-p{
+	color:white;
+	font-size:18px;
+}
