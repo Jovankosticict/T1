@@ -11,9 +11,9 @@ body{background-color:black;
      display: flex; 
     justify-content: space-around; 
     align-items: center; 
+	background-color:black;
     font-family: "Montserrat", sans-serif; 
     border-bottom: 2px solid #EEEEEE; 
-      background-image: url('images.jpeg');
     background-size: cover; /
     background-position: center;
     color: white;
