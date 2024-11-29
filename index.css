@@ -191,7 +191,7 @@ color:CF0A0A;
 height:200px;}
 .keria{
 	display:flex;
-	width:250px;
+	width:200px;
 	flex-direction:column;
 
 
@@ -234,6 +234,7 @@ height:200px;}
 	color:white;
 	font-weight:800;
 	height:860px;
+	padding-top:5px;
 }
 #naslov,#ja{
 	display:flex;
@@ -241,6 +242,7 @@ height:200px;}
 }
 .o-klubu{
 	border-right:2px solid white;
+padding-top:5px;
 }
 #autor{display:flex;
 flex-direction:row;
