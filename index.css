@@ -11,9 +11,9 @@ body{background-color:black;
      display: flex; 
     justify-content: space-around; 
     align-items: center; 
-	background-color:black;
     font-family: "Montserrat", sans-serif; 
     border-bottom: 2px solid #EEEEEE; 
+      background-image: url('images.jpeg');
     background-size: cover; /
     background-position: center;
     color: white;
@@ -193,7 +193,10 @@ height:200px;}
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+
+
 }
+
 .heeader-roster{
 	color:#CF0A0A:
 }
@@ -231,16 +234,16 @@ height:200px;}
 	background-position:top;
 	color:white;
 	font-weight:800;
-	height:860px;
 	padding-top:5px;
+	height:860px;
 }
 #naslov,#ja{
 	display:flex;
 	justify-content:center;
 }
 .o-klubu{
+	padding-top:5px;
 	border-right:2px solid white;
-padding-top:5px;
 }
 #autor{display:flex;
 flex-direction:row;
