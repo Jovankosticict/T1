@@ -234,6 +234,9 @@ color:CF0A0A;
 	opacity:1;
 
 }
+.all .keria:nth-child(3) {
+ margin-top:50px;
+}
 #o-nama{
 	display:flex;
 	flex-direction:row;
