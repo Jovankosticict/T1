@@ -188,15 +188,18 @@ color:CF0A0A;
 		border:3px solid #CF0A0A;
 		border-radius:20px;
 	width:300px;
-height:200px;}
+	align-items:center;
+	height:200px;
+}
 .keria{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+	justify-content:center;
+	align-content:center;
 
 
 }
-
 .heeader-roster{
 	color:#CF0A0A:
 }
@@ -211,10 +214,15 @@ height:200px;}
 .player-id{
 	color:white;
 	font-size:30px;
-	padding-left:100px;
+	padding-left:50px;
 	
 	
 }
+.k{
+	padding-left:150px;
+}
+.o{padding-left:0px;}
+
 .all ul{
 	list-style-type:none;
 	padding-left:50px;
